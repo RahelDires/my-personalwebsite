@@ -1,0 +1,36 @@
+    a:hover {
+    font-size:20px;
+	background-color:saddlebrown;
+	color:antiquewhite;
+}
+a:link {
+    
+    text-decoration: none;
+	border:1px;
+	border-bottom-color:white;
+}
+    .im{
+		height:300px;
+		width:300px;  	
+		border-radius:50%;}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+
+.w3-sidebar {width: 120px;background: #222;}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
